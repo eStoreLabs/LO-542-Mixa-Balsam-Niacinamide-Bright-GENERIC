@@ -235,53 +235,6 @@
   font-weight: 700;
   text-align: center;
 }
-#es-rc #es-rc-content .es-ba {
-  margin-bottom: 50px;
-}
-#es-rc #es-rc-content .es-ba__left-title {
-  max-width: 500px;
-  color: #0058bf;
-  font-weight: 700;
-  font-size: 18px;
-  text-align: center;
-}
-#es-rc #es-rc-content .es-ba__left {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  padding: 16px;
-}
-#es-rc #es-rc-content .es-ba__left-inner {
-  position: relative;
-}
-#es-rc #es-rc-content .es-ba__left-before {
-  padding: 8px;
-  position: absolute;
-  top: 0%;
-  left: 15%;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-#es-rc #es-rc-content .es-ba__left-after {
-  padding: 8px;
-  position: absolute;
-  top: 0%;
-  right: 17%;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-#es-rc #es-rc-content .es-ba__left-image {
-  margin-bottom: 20px;
-}
-#es-rc #es-rc-content .es-ba__left-disclaimer {
-  max-width: 354px;
-  font-size: 8px;
-  text-align: center;
-}
-#es-rc #es-rc-content .es-ba__right-image {
-  display: none;
-}
 #es-rc #es-rc-content .es-formule {
   display: flex;
   flex-direction: column;
@@ -807,22 +760,6 @@
 @media (min-width: 750px) {
   #es-rc #es-rc-content .es-cross__name {
     height: unset;
-  }
-  #es-rc #es-rc-content .es-ba {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 83px;
-  }
-  #es-rc #es-rc-content .es-ba__left-title {
-    margin-bottom: 30px;
-    max-width: 400px;
-    font-size: 23px;
-  }
-  #es-rc #es-rc-content .es-ba__right {
-    margin-left: -30px;
-  }
-  #es-rc #es-rc-content .es-ba__right-image {
-    display: block;
   }
 }
 @media (min-width: 992px) {
