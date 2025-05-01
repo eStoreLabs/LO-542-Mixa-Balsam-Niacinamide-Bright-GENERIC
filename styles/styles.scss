@@ -1,4 +1,4 @@
-$ff-base: 'Montserrat', sans-serif;
+$ff-base: "Montserrat", sans-serif;
 $fw-regular: 400;
 $fw-bold: 700;
 $fs-base: 14px;
@@ -14,12 +14,6 @@ $padding-M: 20px;
 $padding-L: 32px;
 $padding-XL: 40px;
 $padding-XXL: 50px;
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
 
 #es-rc #es-rc-content {
   font-family: $ff-base;
@@ -1045,7 +1039,6 @@ body {
     }
 
     .es-formule {
-
       &__left-title-1,
       &__left-title-2,
       &__right-title-1,
@@ -1094,11 +1087,9 @@ body {
     }
 
     .es-ba {
-
       &__right-image {
         display: block;
       }
-
     }
   }
 
