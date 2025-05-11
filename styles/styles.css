@@ -270,9 +270,40 @@
   width: 70%;
   max-width: 300px;
   text-align: center;
+  position: relative;
 }
 #es-rc #es-rc-content .es-formula__left--lineCtn {
-  display: none;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  transform: rotate(90deg);
+  transform-origin: left;
+}
+#es-rc #es-rc-content .es-formula__left--lineCtn--1 {
+  left: 33%;
+  min-width: 300px;
+  width: 200%;
+  max-width: 425px;
+}
+#es-rc #es-rc-content .es-formula__left--lineCtn--2 {
+  top: 85%;
+  left: 66%;
+  width: 103%;
+}
+#es-rc #es-rc-content .es-formula__left--line {
+  width: 100%;
+  border-bottom: 1px dashed #0058bf;
+  height: 1px;
+}
+#es-rc #es-rc-content .es-formula__left--plus {
+  font-size: 39.6px;
+  line-height: 1;
+  transition: all 200ms ease-in-out;
 }
 #es-rc #es-rc-content .es-formula__right {
   position: relative;
@@ -545,25 +576,18 @@
     scale: 1.05;
   }
   #es-rc #es-rc-content .es-formula__left--lineCtn {
-    position: absolute;
     top: 0;
     width: 60%;
     height: 100%;
     left: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    vertical-align: middle;
+    transform: unset;
   }
-  #es-rc #es-rc-content .es-formula__left--line {
-    width: 100%;
-    border-bottom: 1px dashed #0058bf;
-    height: 1px;
+  #es-rc #es-rc-content .es-formula__left--lineCtn--1 {
+    min-width: unset;
+    max-width: unset;
   }
-  #es-rc #es-rc-content .es-formula__left--plus {
-    font-size: 39.6px;
-    line-height: 1;
-    transition: all 200ms ease-in-out;
+  #es-rc #es-rc-content .es-formula__left--lineCtn--2 {
+    width: 80%;
   }
   #es-rc #es-rc-content .es-formula__right {
     overflow: hidden;
