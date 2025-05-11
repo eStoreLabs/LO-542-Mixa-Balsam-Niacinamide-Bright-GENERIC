@@ -336,7 +336,7 @@ $shadow: 1px 1px 15px 3px rgba(0, 0, 1, 0.1);
       }
       &--text {
         border-radius: 0 10px 0 0;
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: rgba(255, 255, 255, 0.7);
         color: $color-blue;
         font-weight: $fw-bold;
         padding: $padding-XS;
@@ -726,9 +726,6 @@ $shadow: 1px 1px 15px 3px rgba(0, 0, 1, 0.1);
             min-width: unset;
             max-width: unset;
           }
-          &--2 {
-            width: 80%;
-          }
         }
       }
       &__right {
@@ -1013,6 +1010,13 @@ $shadow: 1px 1px 15px 3px rgba(0, 0, 1, 0.1);
       }
       &__right {
         border-radius: 24px 0 0 0;
+      }
+    }
+    .es-formula {
+      &__left {
+        &--lineCtn {
+          width: 80%;
+        }
       }
     }
     .es-cross {

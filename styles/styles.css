@@ -261,7 +261,7 @@
 }
 #es-rc #es-rc-content .es-formula__left--text {
   border-radius: 0 10px 0 0;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   color: #0058bf;
   font-weight: 700;
   padding: 8px;
@@ -586,9 +586,6 @@
     min-width: unset;
     max-width: unset;
   }
-  #es-rc #es-rc-content .es-formula__left--lineCtn--2 {
-    width: 80%;
-  }
   #es-rc #es-rc-content .es-formula__right {
     overflow: hidden;
   }
@@ -831,6 +828,9 @@
   }
   #es-rc #es-rc-content .es-fragrance__right {
     border-radius: 24px 0 0 0;
+  }
+  #es-rc #es-rc-content .es-formula__left--lineCtn {
+    width: 80%;
   }
   #es-rc #es-rc-content .es-cross {
     padding-bottom: 5px;
